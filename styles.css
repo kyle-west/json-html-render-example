@@ -1,0 +1,42 @@
+.render {
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+/* ----------------------------------- */
+.log {
+  border: 1px solid blue;
+  border-left-width: 3px;
+  padding-left: 5px;
+}
+
+/* ----------------------------------- */
+
+.results table {
+  width: 50%;
+  text-align: center;
+}
+
+.result.PASS {
+  background-color: green;
+  color: white;
+}
+.result.FAIL {
+  background-color: red;
+  color: white;
+}
+
+/* ----------------------------------- */
+
+.setup-info table {
+  width: 100%;
+}
+
+.setup-info td {
+  border: 1px solid grey; 
+}
+
+.setup-info tr.out-of-tolerance {
+  background-color: orange;
+  color: white;
+}

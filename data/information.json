@@ -1,0 +1,53 @@
+[
+  { "type": "setup-info", "data": { "rows": [
+    { "foo": 1, "bar": 5, "baz": 7, "quz": 3, "qux": "some dataum", "outOfTolerance":false },
+    { "foo": 2, "bar": 3, "baz": 1, "quz": 2, "qux": "some dataum", "outOfTolerance":false },
+    { "foo": 1, "bar": 5, "baz": 5, "quz": 3, "qux": "some dataum", "outOfTolerance":false },
+    { "foo": 1, "bar": 4, "baz": 1, "quz": 3, "qux": "some dataum", "outOfTolerance":false },
+    { "foo": 1, "bar": 5, "baz": 2, "quz": 4, "qux": "some dataum", "outOfTolerance":false },
+    { "foo": 3, "bar": 6, "baz": 1, "quz": 3, "qux": "some dataum", "outOfTolerance":true },
+    { "foo": 1, "bar": 6, "baz": 2, "quz": 6, "qux": "some dataum", "outOfTolerance":false },
+    { "foo": 5, "bar": 7, "baz": 1, "quz": 3, "qux": "some dataum", "outOfTolerance":false },
+    { "foo": 1, "bar": 5, "baz": 7, "quz": 8, "qux": "some dataum", "outOfTolerance":false }
+  ] } },
+  { "type": "log", "data": "[TIMESTAMP]: such and such a log giving some helpful info" },
+  { "type": "results", "data": { "name":"result-1", "pass": true, "timestamp": "2019-02-19T02:03:59.813Z", "percentComplete": "100%"} },
+  { "type": "results", "data": { "name":"result-2", "pass": true, "timestamp": "2019-02-19T02:03:59.813Z", "percentComplete": "100%"} },
+  { "type": "results", "data": { "name":"result-3", "pass": true, "timestamp": "2019-02-19T02:03:59.813Z", "percentComplete": "100%"} },
+  { "type": "setup-info", "data": { "rows": [
+    { "foo": 1, "bar": 5, "baz": 7, "quz": 3, "qux": "some dataum", "outOfTolerance":false },
+    { "foo": 2, "bar": 3, "baz": 1, "quz": 2, "qux": "some dataum", "outOfTolerance":false },
+    { "foo": 1, "bar": 5, "baz": 5, "quz": 3, "qux": "some dataum", "outOfTolerance":false },
+    { "foo": 1, "bar": 4, "baz": 1, "quz": 3, "qux": "some dataum", "outOfTolerance":true },
+    { "foo": 1, "bar": 5, "baz": 2, "quz": 4, "qux": "some dataum", "outOfTolerance":false },
+    { "foo": 3, "bar": 6, "baz": 1, "quz": 3, "qux": "some dataum", "outOfTolerance":true },
+    { "foo": 1, "bar": 6, "baz": 2, "quz": 6, "qux": "some dataum", "outOfTolerance":true },
+    { "foo": 5, "bar": 7, "baz": 1, "quz": 3, "qux": "some dataum", "outOfTolerance":false },
+    { "foo": 1, "bar": 5, "baz": 7, "quz": 8, "qux": "some dataum", "outOfTolerance":false }
+    ] } },
+    { "type": "results", "data": { "name":"result-1", "pass": true, "timestamp": "2019-02-19T02:03:59.813Z", "percentComplete": "100%"} },
+    { "type": "log", "data": "[TIMESTAMP]: such and such a log giving some helpful info" },
+    { "type": "results", "data": { "name":"result-2", "pass": false, "timestamp": "2019-02-19T02:03:59.813Z", "percentComplete": "84%"} },
+  { "type": "log", "data": "[TIMESTAMP]: such and such a log giving some helpful info" },
+  { "type": "log", "data": "[TIMESTAMP]: such and such a log giving some helpful info" },
+  { "type": "log", "data": "[TIMESTAMP]: such and such a log giving some helpful info" },
+  { "type": "log", "data": "[TIMESTAMP]: such and such a log giving some helpful info" },
+  { "type": "log", "data": "[TIMESTAMP]: such and such a log giving some helpful info" },
+  { "type": "setup-info", "data": { "rows": [
+    { "foo": 1, "bar": 5, "baz": 7, "quz": 3, "qux": "some dataum", "outOfTolerance":false },
+    { "foo": 2, "bar": 3, "baz": 1, "quz": 2, "qux": "some dataum", "outOfTolerance":false },
+    { "foo": 1, "bar": 5, "baz": 5, "quz": 3, "qux": "some dataum", "outOfTolerance":false },
+    { "foo": 1, "bar": 4, "baz": 1, "quz": 3, "qux": "some dataum", "outOfTolerance":false },
+    { "foo": 1, "bar": 5, "baz": 2, "quz": 4, "qux": "some dataum", "outOfTolerance":false },
+    { "foo": 3, "bar": 6, "baz": 1, "quz": 3, "qux": "some dataum", "outOfTolerance":false },
+    { "foo": 1, "bar": 6, "baz": 2, "quz": 6, "qux": "some dataum", "outOfTolerance":false },
+    { "foo": 5, "bar": 7, "baz": 1, "quz": 3, "qux": "some dataum", "outOfTolerance":false },
+    { "foo": 1, "bar": 5, "baz": 7, "quz": 8, "qux": "some dataum", "outOfTolerance":false }
+    ] } },
+  { "type": "results", "data": { "name":"result-1", "pass": false, "timestamp": "2019-02-19T02:03:59.813Z", "percentComplete": "100%"} },
+  { "type": "log", "data": "[TIMESTAMP]: such and such a log giving some helpful info" },
+  { "type": "log", "data": "[TIMESTAMP]: such and such a log giving some helpful info" },
+  { "type": "log", "data": "[TIMESTAMP]: such and such a log giving some helpful info" },
+  { "type": "log", "data": "[TIMESTAMP]: such and such a log giving some helpful info" },
+  { "type": "results", "data": { "name":"result-1", "pass": true, "timestamp": "2019-02-19T02:03:59.813Z", "percentComplete": "100%"} }
+]
